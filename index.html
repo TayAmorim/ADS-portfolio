@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tayanna Amorim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="menuContainer">
+      <div class="line"></div>
+      <ul class="menu">
+        <li class="menuItem">
+          <span>01</span>
+          <a href="#about">Sobre mim</a>
+        </li>
+        <li class="menuItem">
+          <span>02</span>
+          <a href="#project">Projetos</a>
+        </li>
+        <li class="menuItem">
+          <span>03</span>
+          <a href="#carreira">Carreira</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="container">
+      <header class="hero">
+        <p class="subtitleHeader">Oi, eu sou Tayanna</p>
+        <h1 class="titleHeader">Desenvolvedora Web</h1>
+        <div class="containerLink">
+          <a href="">
+            <img src="../assets/githubLogo.png" alt="logo github" />
+          </a>
+          <a href="">
+            <img src="../assets/linkedinLogo.png" alt="logo Linkedin" />
+          </a>
+        </div>
+      </header>
+      <section id="about" class="sectionContainer">
+        <div class="headerSection">
+          <span class="stepSection">01</span>
+          <h2 class="textSection">Sobre mim</h2>
+        </div>
+        <div class="lineSection"></div>
+        <p class="defultText text-margin">
+          Apaixonada por cafés e comprometida com um estilo de vida saudável.
+          Atualmente fiz transição de carreira, deixando a biomedicina para me
+          aventurar no Desenvolvimento web. Com um espírito curioso e uma
+          determinação incansável, tenho trilhado um caminho em constante
+          aprendizado e crescimento.
+        </p>
+        <p class="defultText">
+          Aprecio as coisas simples da vida e encontro grande alegria em
+          momentos serenos, como desfrutar de uma tarde tranquila no aconchego
+          do meu sofá, ao lado da minha adorável pequena família.
+        </p>
+        <section class="aboutCards">
+          <div class="hobbies">
+            <h3 class="subtitleSection">Gostos & Hobbies</h3>
+            <div class="hobbiesCard">
+              <span class="item">
+                <img
+                  class="iconeAbout"
+                  src="./assets/ion_barbell-outline.svg"
+                  alt="icone-treinar"
+                />
+                Treinar
+              </span>
+              <span class="item">
+                <img class="iconeAbout" src="./assets/coffe.svg" alt="coffe" />
+                Experimentar bons cafés
+              </span>
+              <span class="item">
+                <img
+                  class="iconeAbout"
+                  src="./assets/ion_dice-outline.svg"
+                  alt="dice"
+                />
+                Jogar rpg com os amigos
+              </span>
+              <span class="item">
+                <img
+                  class="iconeAbout"
+                  src="./assets/ion_home-outline.svg"
+                  alt="home"
+                />
+                O conforto do meu lar
+              </span>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section id="project" class="sectionContainer">
+        <div class="headerSection">
+          <span class="stepSection">02</span>
+          <h2 class="textSection">Projetos</h2>
+        </div>
+        <div class="lineSection"></div>
+        <section class="cardsProjects">
+          <div class="cardItem">
+            <h3 class="subtitleSection">CuboPag</h3>
+            <img src="./assets/desafio-final.gif" alt="" />
+            <p class="defultText">
+              Projeto de cobranças eficiente e prático. Que tem como objetivo
+              simplificar e automatizar o processo de gestão de cobranças para
+              empresas de diversos setores.
+            </p>
+            <a href="https://caixa-de-pancoda.netlify.app/login">🌐</a>
+          </div>
+          <div class="cardItem">
+            <h3 class="subtitleSection">Crowdfunding product</h3>
+            <div>
+              <img src="./assets/crowdfunding.gif" alt="" />
+              <p class="defultText">
+                Este é um projeto de página de produto de crowdfunding, uma
+                forma inovadora de financiamento coletivo, onde um projeto,
+                ideia ou produto é apresentado a uma comunidade de pessoas
+                interessadas.
+              </p>
+              <a href="https://mastercraft-crowdfund.netlify.app/">🌐</a>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section id="carreira" class="sectionContainer">
+        <div class="headerSection">
+          <span class="stepSection">03</span>
+          <h2 class="textSection">Habilidades & Carreira</h2>
+        </div>
+        <div class="lineSection"></div>
+        <div class="carreiraContainer">
+          <div class="companies">
+            <button class="btnCompanies bgc">BGC Brasil</button>
+            <button class="btnCompanies menina">Menina de UX</button>
+          </div>
+          <div class="skills">
+            <span class="skill bgc menina">React.js</span>
+            <span class="skill bgc menina">JavaScript</span>
+            <span class="skill bgc">Redux</span>
+            <span class="skill bgc menina">Git</span>
+            <span class="skill menina">Github</span>
+            <span class="skill bgc">Bitbucket</span>
+            <span class="skill bgc menina">Design system</span>
+            <span class="skill bgc">Jest</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
