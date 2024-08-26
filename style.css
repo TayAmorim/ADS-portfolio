@@ -258,3 +258,62 @@ a {
   background-color: var(--highlightPrimary);
   color: var(--white);
 }
+
+#contact {
+  margin-bottom: 20px;
+}
+
+.contactContainer {
+  display: flex;
+  gap: 20%;
+  align-items: center;
+}
+
+#formContact {
+  background-color: var(--bgCard);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 40%;
+  margin-top: 30px;
+}
+
+input {
+  border: 1px solid var(--highlightPrimary);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.formSubmit {
+  width: 200px;
+  padding-block: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--highlightPrimary);
+  color: var(--white);
+  font-weight: bold;
+}
+
+.inputMessage {
+  height: 80px;
+}
+
+.mensage {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: var(--highlightPrimary);
+  padding: 10px;
+  height: 60px;
+  color: var(--white);
+  border-radius: 10px;
+  display: none;
+  visibility: hidden;
+}
+
+.mensage.show {
+  visibility: visible;
+  display: flex;
+}
